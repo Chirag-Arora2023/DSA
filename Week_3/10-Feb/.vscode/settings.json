@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.css": "css",
+        "xutility": "cpp",
+        "iostream": "cpp",
+        "utility": "cpp"
+    }
+}

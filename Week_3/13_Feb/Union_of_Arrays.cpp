@@ -1,27 +1,24 @@
 #include<iostream>
 #include<vector>
-#include<limits.h>
 using namespace std;
-int Union(vector<int>arr,vector<int>brr){
-    for(int i=0;i<arr.size();i++){
-        
-    }
-}
 
 int main(){
-    // int n;
-    // cout<<"Enter the size of first vector";
-    // cin>>n;
-    vector<int>arr,vector<int>brr;
-    cout<<"Enter the elements of first vector"<<endl;
-    for(int i=0;i<arr.size();i++) cin>>arr[i];
-    cout<<"Enter the elements of second vector"<<endl;
-    for(int i=0;i<brr.size();i++) cin>>brr[i];
-
-    int result=Union(arr,brr);
-    cout<<result;
     
+    int a[]={1,2,3,4,5};
+    int sizea = 5;
+    int b[]={5,9,8,7,6};
+    int sizeb = 4;
+    vector<int>unin;
 
-    
-    return 0;
+    for(int i=0;i<sizea;i++)
+    unin.push_back(a[i]);
+
+    for(int i=0;i<sizeb;i++)
+    unin.push_back(b[i]);
+
+    cout<<"The union of two arrays a and b is "<<endl;
+    for(int i=0;i<unin.size();i++)
+    cout<<unin[i]<<" ";
+
+return 0;
 }

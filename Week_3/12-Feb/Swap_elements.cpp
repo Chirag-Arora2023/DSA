@@ -13,7 +13,7 @@ int main()
     
     int  start = 0;
     int  end = size-1;
-
+        //SWAP USING temp variable.
    while(start <= end)
    {
         int temp=arr[start];

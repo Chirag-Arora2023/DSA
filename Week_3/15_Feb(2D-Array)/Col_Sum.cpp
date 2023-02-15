@@ -13,6 +13,15 @@ int main(){
         }
     }
 
+    for(int i=0;i<rows;i++){
+        int colsum=0;
+        for(int j=0;j<cols;j++){
+            colsum+=arr[j][i];
+        }
+        cout<<colsum;
+        cout<<endl;
+    }
+
     
 
 return 0;

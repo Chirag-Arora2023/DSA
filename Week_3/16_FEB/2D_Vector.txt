@@ -1,0 +1,7 @@
+2D VECTOR
+aka vector.of.vector
+
+SYNTAX -  vector<vector<data_type>vector_name;
+          vector<vector<int>vec;
+No. of rows -->  vec.size();
+No. of columns ->vec[0].size();

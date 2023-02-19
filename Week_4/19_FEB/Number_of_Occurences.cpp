@@ -3,7 +3,7 @@
 #include<algorithm>
 using namespace std;
 int firstOcc(vector<int> arr, int target){
-    int s=0, e= arr.size()-1 , ans1;
+    int s=0, e= arr.size()-1 , ans1 = -1;
     int m = s + (e- s)/2;
     while(s<=e){
         if(arr[m] == target){

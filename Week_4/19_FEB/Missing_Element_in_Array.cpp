@@ -3,7 +3,7 @@
 using namespace std;
 
 int missingElement(vector<int> arr){
-    int s=0, e = arr.size() -1,ans;
+    int s=0, e = arr.size() -1,ans = -1;
     int m= s + (e-s)/2;
     while(s<=e){
         if(arr[m] == m+1)

@@ -3,7 +3,7 @@
 using namespace std;
 
 int LastOcc(vector<int> arr , int target ){
-    int s=0 , e = arr.size() - 1, ti;
+    int s=0 , e = arr.size() - 1, ti = -1;
     int m = s + ( e - s) / 2;
 
     while( s <= e){

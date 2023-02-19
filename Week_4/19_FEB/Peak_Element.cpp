@@ -3,7 +3,7 @@
 using namespace std;
 
 int peakElement(vector<int>arr){
-    int s=0, e = arr.size() - 1, ans;
+    int s=0, e = arr.size() - 1, ans = -1;
     int m= s + (e - s)/2;
 
     while(s < e){
@@ -12,7 +12,7 @@ int peakElement(vector<int>arr){
         else e = m;
         m= s+(e-s)/2;
     }
-    return arr[s];
+    return arr[m];
 }
 
 int main(){

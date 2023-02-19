@@ -1,0 +1,3 @@
+Whenever dealing with a rotated array, --> FIND PIVOT AND DIVIDE THE ARRAY INTO TWO PARTS
+It makes the searching a lot easier and systematic.
+for example  arr{4,5,6,7,0,1,2,3} ==>  A{4,5,6,7}   and   B{0,1,2,3}

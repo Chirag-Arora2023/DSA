@@ -8,10 +8,10 @@ int pivotElement(vector<int>arr){
 
     while( s <= e ){
 
-        if(arr[m] > arr[m+1])       return m;
-        else if( arr[m] < arr[m-1] )return (m-1);
-        else if( arr[m] < arr[0])   e = m - 1;
-        else                        s = m + 1;
+        if( (m+1) <= e  &&  arr[m] > arr[m+1])       return m;
+        else if( (m-1) >= s  &&  arr[m] < arr[m-1] ) return (m-1);
+        else if( arr[m] < arr[0])                   e = m - 1;
+        else                                        s = m + 1;
 
         m = s + (e - s )/2 ;
 

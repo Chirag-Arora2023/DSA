@@ -22,21 +22,20 @@ int main(){
     int n;
     cout<<"Enter the number "; cin>>n;
 
-    int precision , sqroot;
+    int precision ; double sqroot;
     cout<<"Enter the number of decimal digits"; cin>>precision;
     int ans = Sqrt(n);
+    double step = 0.1;
     for(int i=0; i< precision;i++){
-        for(int j=ans;j<ans+1;j++){
-            if(j * j == n ) sqroot = j;
-            else if(j * j < n){
-                sqroot = j;
-                
-            }
+        for(double j=ans; j*j <= ans+1; j+=step){
+            sqroot = j;
         }
+        step = step/10;
     }
+    cout<<sqroot;
 
     
-    cout<< "The square root of the given number is "<<ans;
+    // cout<< "The square root of the given number is "<<ans;
 
 
 return 0;

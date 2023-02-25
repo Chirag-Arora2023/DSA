@@ -1,10 +1,16 @@
 #include<iostream>
 #include<vector>
+#include<algorithm>
+//#include<bits/stdc++.h>
 
 using namespace std;
 
 int main(){
     vector<int> arr{1,3,5,3,4,7,3,4,9};
+    sort(arr.begin() , arr.end());
+    for(auto i: arr){
+        cout<<i<<" ";
+    }
 
 //     //APPROACH 1  SORT AND SEARCH
 //     for(int i=0;i<arr.size();i++){

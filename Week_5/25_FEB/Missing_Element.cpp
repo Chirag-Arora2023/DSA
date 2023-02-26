@@ -29,19 +29,19 @@ int main(){
 //     }
 
     //NEGATIVE MARKING APPROACH
-    vector<int> brr{1,3,5,3,4,3,7,7,7};
-    int n = brr.size();
-    for(int i=0;i<n;i++){
-        int index = abs(brr[i]);
+    // vector<int> brr{1,3,5,3,4,3,7,7,7};
+    // int n = brr.size();
+    // for(int i=0;i<n;i++){
+    //     int index = abs(brr[i]);
 
-        if(brr[index - 1]>0) 
-        brr[index - 1] *= -1;
+    //     if(brr[index - 1]>0) 
+    //     brr[index - 1] *= -1;
         
-    }
-    for(int i=0;i<n;i++){
-        if(brr[i] > 0)
-        cout<<i+1<<" ";
-    }
+    // }
+    // for(int i=0;i<n;i++){
+    //     if(brr[i] > 0)
+    //     cout<<i+1<<" ";
+    // }
 
 
     return 0;

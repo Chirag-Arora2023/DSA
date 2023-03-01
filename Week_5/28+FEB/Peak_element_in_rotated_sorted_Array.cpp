@@ -17,6 +17,8 @@ int pivot(vector<int> nums){
             e = m;
         }
         else s = m+1;
+
+        m = s + (e - s) / 2;
     }
     return ans;
 }

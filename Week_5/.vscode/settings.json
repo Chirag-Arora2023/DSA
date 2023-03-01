@@ -3,6 +3,8 @@
         "*.css": "css",
         "vector": "cpp",
         "iostream": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "set": "cpp",
+        "algorithm": "cpp"
     }
 }

@@ -2,7 +2,7 @@
 #include<vector>
 using namespace std;
 bool ispossible(vector<int> arr, int n, int m, int mid) {
-    int studcount = 1;
+    int studcount = 1; 
     int pagesum = 0;
     for (int i = 0; i < n; i++) {
         if (pagesum + arr[i] <= mid) {

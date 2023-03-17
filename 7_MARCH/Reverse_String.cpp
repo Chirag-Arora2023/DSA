@@ -10,5 +10,8 @@ using namespace std;
     }
 
 int main(){
+    vector<char>ch;
+    reverseString(ch);
+    for(auto i:ch)cout<<ch[i];
     return 0;
 }

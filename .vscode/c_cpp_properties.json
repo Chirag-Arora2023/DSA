@@ -3,7 +3,10 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**", "C:\\mingw64\\include"
+                "${workspaceFolder}/**",
+                "C:\\Users\\chira\\Downloads\\MinGW\\include",
+                "C:\\Users\\chira\\Downloads\\MinGW\\include",
+                "C:/Users/chira/Downloads/MinGW/include/c++/9.2.0/x86_64-w64-mingw32"
             ],
             "defines": [
                 "_DEBUG",
@@ -12,8 +15,8 @@
             ],
             "windowsSdkVersion": "10.0.22000.0",
             "compilerPath": "cl.exe",
-            "cStandard": "c17",
-            "cppStandard": "c++17",
+            "cStandard": "c23",
+            "cppStandard": "c++23",
             "intelliSenseMode": "windows-msvc-x64"
         }
     ],
